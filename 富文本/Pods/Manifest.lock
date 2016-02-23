@@ -1,0 +1,18 @@
+PODS:
+  - MTStringAttributes (0.1.0):
+    - Slash (~> 0.1)
+  - Slash (0.1.2):
+    - Slash/arc (= 0.1.2)
+    - Slash/no-arc (= 0.1.2)
+  - Slash/arc (0.1.2)
+  - Slash/no-arc (0.1.2)
+
+DEPENDENCIES:
+  - MTStringAttributes
+  - Slash (~> 0.1)
+
+SPEC CHECKSUMS:
+  MTStringAttributes: de00c2d2edef56fc3611b3c3d09ea83613d20e80
+  Slash: c74317f5ccf1e31f1d486a17e0d4076029ed3fc8
+
+COCOAPODS: 0.38.2

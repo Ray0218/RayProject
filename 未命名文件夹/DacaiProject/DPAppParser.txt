@@ -1,0 +1,203 @@
+scheme - hzdacai
+
+
+
+
+
+hzdacai://action?
+
+
+
+
+
+
+
+1.首页
+    {
+        "Action": 1,       	 	//
+        "Version": 1            // 协议版本号
+    }
+    
+2.合买大厅:
+    {
+        "Action": 2,       	 	//
+        "GameTypeId": 2,   	 	// 彩种类型
+        "UserName": "echo",	    // 用户名
+        "Tab": 1,               // tab
+        "Aesc": true            // 是否升序
+    }
+
+3.投注界面
+    {
+        "Action": 3,            //
+        "GameTypeId": 2,        // 彩种类型
+        "GameIndex": 3          // 彩种玩法
+    }
+
+4.中转界面
+    {
+        "Action": 4,       		//
+        "GameTypeId": 2   	  	// 彩种类型
+        // 带方案内容
+    }
+
+5.方案详情
+    {
+        "Action": 5,      	  	//
+        "GameTypeId": 2, 		// 彩种类型
+        "ProjectId": 3381401,   // 方案Id
+        "BuyType": 1
+    }
+    
+6.个人中心
+    {
+        "Action": 6,
+        "Tab": 0
+    }
+    
+7.充值
+    {
+        "Action": 7,
+        "Amount": 100			// 充值金额
+    }
+    
+8.提款
+    {
+        "Action": 8
+    }
+    
+9.红包
+    {
+        "Action": 9,
+        "Tab": 0				// 0:可使用, 1:派发中, 2:已过期
+    }
+    
+10.兑换码
+    {
+        "Action": 10,
+        "RedeemCode": "XS103112"	// 兑换码
+    }
+
+11.购买红包
+    {
+        "Action": 11
+    }
+    
+12.实名认证
+    {
+        "Action": 12
+    }
+    
+13.开奖公告
+    {
+        "Action": 13
+    }
+    
+14.开奖走势
+    {
+        "Action": 14,
+        "GameTypeId": 2   	 	// 彩种类型
+    }
+    
+15.资讯
+    {
+        "Action": 15,
+        "Tab": 1				// 0:推荐, 1:公告, 2:选择彩种页
+    }
+    
+16.资讯详情
+    {
+        "Action": 16,
+        "GameTypeId": 2   	 	// 彩种类型
+    }
+    
+17.比分直播
+    {
+        "Action": 17
+    }
+    
+18.数据界面
+    {
+        "Action": 18,
+        "DMatchId": 149145,		// 数据中心赛事Id
+        "Tab": 1				// 0:赛事, 1:分析, 2:积分, 3:盘口, 4:盈亏
+    }
+    
+19.资金明细
+    {
+        "Action": 19
+        "Tab": 1				// 0:收支, 1:充值, 2:提款
+    }
+    
+20.设置
+    {
+        "Action": 20
+    }
+    
+21.推送设置
+    {
+        "Action": 21
+    }
+    
+22.帮助
+    {
+        "Action": 22
+    }
+    
+23.帮助详细
+    {
+        "Action": 23
+    }
+    
+24.分享
+    {
+        "Action": 24
+    }
+    
+25.登录
+    {
+        "Action": 25,
+        "BackReload": true		// 如果上一个界面是webView, 则返回并重新加载
+    }
+
+99.HTML
+    {
+        "Action": 99,
+        "CanBack": true, 		// 是否可以返回
+        "ShouldPush": true,		// 跳转时, 是否生成新的页面
+        "ShowNav": true,		// 是否显示导航栏
+        "URL": "http://www.baidu.com",  // 跳转地址
+        "CustomTitle": true,    // false时读取html的标题
+        "Title": "高频5折"       // 导航栏标题, customTitle为true时有效
+//        "POST": false           // 是否POST方式
+    }
+
+100.自定义
+    {
+        "Action": 100,
+        "ClassName": "DPXXXViewController", 	// 类名
+        "Key1": Value1,	// 键值对1, 对应类中的属性
+        "Key2": Value2,	// 键值对2, 对应类中的属性
+        "Key3": Value3,	// 键值对3, 对应类中的属性
+        ...
+    }
+
+// 1000~1999 为应用回调
+1000.付款回调
+
+1001.充值回调
+
+
+
+
+
+
+hzdacai://mutual?
+
+1.同步账户
+{
+    "Action": 1,        // 动作
+    "UserName": "echo", // 用户名
+    "UserToken": "xxx"  // 用户token
+}
+

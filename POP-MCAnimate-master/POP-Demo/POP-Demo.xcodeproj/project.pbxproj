@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34003227191DFC8300A7CA32 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34003226191DFC8300A7CA32 /* POPCGUtils.mm */; };
+		34A67E2419114B9A00CCDA78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A67E2319114B9A00CCDA78 /* Foundation.framework */; };
+		34A67E2619114B9A00CCDA78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A67E2519114B9A00CCDA78 /* CoreGraphics.framework */; };
+		34A67E2819114B9A00CCDA78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A67E2719114B9A00CCDA78 /* UIKit.framework */; };
+		34A67E2E19114B9A00CCDA78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34A67E2C19114B9A00CCDA78 /* InfoPlist.strings */; };
+		34A67E3019114B9A00CCDA78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A67E2F19114B9A00CCDA78 /* main.m */; };
+		34A67E3419114B9A00CCDA78 /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A67E3319114B9A00CCDA78 /* MCAppDelegate.m */; };
+		34A67E3719114B9A00CCDA78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A67E3519114B9A00CCDA78 /* Main.storyboard */; };
+		34A67E3A19114B9A00CCDA78 /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A67E3919114B9A00CCDA78 /* MCViewController.m */; };
+		34A67E3C19114B9A00CCDA78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A67E3B19114B9A00CCDA78 /* Images.xcassets */; };
+		34A67E4319114B9A00CCDA78 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A67E4219114B9A00CCDA78 /* XCTest.framework */; };
+		34A67E4419114B9A00CCDA78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A67E2319114B9A00CCDA78 /* Foundation.framework */; };
+		34A67E4519114B9A00CCDA78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A67E2719114B9A00CCDA78 /* UIKit.framework */; };
+		34A67E4D19114B9A00CCDA78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34A67E4B19114B9A00CCDA78 /* InfoPlist.strings */; };
+		34A67E4F19114B9A00CCDA78 /* POP_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A67E4E19114B9A00CCDA78 /* POP_DemoTests.m */; };
+		9E3818A21A124A8100D39B84 /* MCSequenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3818A11A124A8100D39B84 /* MCSequenceController.m */; };
+		F292894CD432482195635D85 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F768501D0B147139C73F6F0 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34A67E4619114B9A00CCDA78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A67E1819114B9A00CCDA78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A67E1F19114B9A00CCDA78;
+			remoteInfo = "POP-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34003225191DFC8300A7CA32 /* POPCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCGUtils.h; sourceTree = "<group>"; };
+		34003226191DFC8300A7CA32 /* POPCGUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCGUtils.mm; sourceTree = "<group>"; };
+		34A67E2019114B9A00CCDA78 /* POP-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POP-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A67E2319114B9A00CCDA78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34A67E2519114B9A00CCDA78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34A67E2719114B9A00CCDA78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34A67E2B19114B9A00CCDA78 /* POP-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POP-Demo-Info.plist"; sourceTree = "<group>"; };
+		34A67E2D19114B9A00CCDA78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34A67E2F19114B9A00CCDA78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34A67E3119114B9A00CCDA78 /* POP-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POP-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		34A67E3219114B9A00CCDA78 /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		34A67E3319114B9A00CCDA78 /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
+		34A67E3619114B9A00CCDA78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34A67E3819114B9A00CCDA78 /* MCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
+		34A67E3919114B9A00CCDA78 /* MCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
+		34A67E3B19114B9A00CCDA78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34A67E4119114B9A00CCDA78 /* POP-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POP-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A67E4219114B9A00CCDA78 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		34A67E4A19114B9A00CCDA78 /* POP-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POP-DemoTests-Info.plist"; sourceTree = "<group>"; };
+		34A67E4C19114B9A00CCDA78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34A67E4E19114B9A00CCDA78 /* POP_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POP_DemoTests.m; sourceTree = "<group>"; };
+		4F768501D0B147139C73F6F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E3818A01A124A8100D39B84 /* MCSequenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSequenceController.h; sourceTree = "<group>"; };
+		9E3818A11A124A8100D39B84 /* MCSequenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSequenceController.m; sourceTree = "<group>"; };
+		CFB40BA96BCEFC22DA35A58A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D0D137EBAEA8C5097E6E2B2B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A67E1D19114B9A00CCDA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A67E2619114B9A00CCDA78 /* CoreGraphics.framework in Frameworks */,
+				34A67E2819114B9A00CCDA78 /* UIKit.framework in Frameworks */,
+				34A67E2419114B9A00CCDA78 /* Foundation.framework in Frameworks */,
+				F292894CD432482195635D85 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A67E3E19114B9A00CCDA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A67E4319114B9A00CCDA78 /* XCTest.framework in Frameworks */,
+				34A67E4519114B9A00CCDA78 /* UIKit.framework in Frameworks */,
+				34A67E4419114B9A00CCDA78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0816E1C07822E5C28E9847A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0D137EBAEA8C5097E6E2B2B /* Pods.debug.xcconfig */,
+				CFB40BA96BCEFC22DA35A58A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		34A67E1719114B9A00CCDA78 = {
+			isa = PBXGroup;
+			children = (
+				34A67E2919114B9A00CCDA78 /* POP-Demo */,
+				34A67E4819114B9A00CCDA78 /* POP-DemoTests */,
+				34A67E2219114B9A00CCDA78 /* Frameworks */,
+				34A67E2119114B9A00CCDA78 /* Products */,
+				0816E1C07822E5C28E9847A4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		34A67E2119114B9A00CCDA78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34A67E2019114B9A00CCDA78 /* POP-Demo.app */,
+				34A67E4119114B9A00CCDA78 /* POP-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A67E2219114B9A00CCDA78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34A67E2319114B9A00CCDA78 /* Foundation.framework */,
+				34A67E2519114B9A00CCDA78 /* CoreGraphics.framework */,
+				34A67E2719114B9A00CCDA78 /* UIKit.framework */,
+				34A67E4219114B9A00CCDA78 /* XCTest.framework */,
+				4F768501D0B147139C73F6F0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34A67E2919114B9A00CCDA78 /* POP-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				34A67E3219114B9A00CCDA78 /* MCAppDelegate.h */,
+				34A67E3319114B9A00CCDA78 /* MCAppDelegate.m */,
+				34A67E3519114B9A00CCDA78 /* Main.storyboard */,
+				34A67E3819114B9A00CCDA78 /* MCViewController.h */,
+				34A67E3919114B9A00CCDA78 /* MCViewController.m */,
+				9E3818A01A124A8100D39B84 /* MCSequenceController.h */,
+				9E3818A11A124A8100D39B84 /* MCSequenceController.m */,
+				34003225191DFC8300A7CA32 /* POPCGUtils.h */,
+				34003226191DFC8300A7CA32 /* POPCGUtils.mm */,
+				34A67E3B19114B9A00CCDA78 /* Images.xcassets */,
+				34A67E2A19114B9A00CCDA78 /* Supporting Files */,
+			);
+			path = "POP-Demo";
+			sourceTree = "<group>";
+		};
+		34A67E2A19114B9A00CCDA78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34A67E2B19114B9A00CCDA78 /* POP-Demo-Info.plist */,
+				34A67E2C19114B9A00CCDA78 /* InfoPlist.strings */,
+				34A67E2F19114B9A00CCDA78 /* main.m */,
+				34A67E3119114B9A00CCDA78 /* POP-Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34A67E4819114B9A00CCDA78 /* POP-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				34A67E4E19114B9A00CCDA78 /* POP_DemoTests.m */,
+				34A67E4919114B9A00CCDA78 /* Supporting Files */,
+			);
+			path = "POP-DemoTests";
+			sourceTree = "<group>";
+		};
+		34A67E4919114B9A00CCDA78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34A67E4A19114B9A00CCDA78 /* POP-DemoTests-Info.plist */,
+				34A67E4B19114B9A00CCDA78 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A67E1F19114B9A00CCDA78 /* POP-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A67E5219114B9A00CCDA78 /* Build configuration list for PBXNativeTarget "POP-Demo" */;
+			buildPhases = (
+				7CBC3CD26DC34A459C11B9D0 /* Check Pods Manifest.lock */,
+				34A67E1C19114B9A00CCDA78 /* Sources */,
+				34A67E1D19114B9A00CCDA78 /* Frameworks */,
+				34A67E1E19114B9A00CCDA78 /* Resources */,
+				2FBD1E351F7E49DC812D703B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POP-Demo";
+			productName = "POP-Demo";
+			productReference = 34A67E2019114B9A00CCDA78 /* POP-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34A67E4019114B9A00CCDA78 /* POP-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A67E5519114B9A00CCDA78 /* Build configuration list for PBXNativeTarget "POP-DemoTests" */;
+			buildPhases = (
+				34A67E3D19114B9A00CCDA78 /* Sources */,
+				34A67E3E19114B9A00CCDA78 /* Frameworks */,
+				34A67E3F19114B9A00CCDA78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A67E4719114B9A00CCDA78 /* PBXTargetDependency */,
+			);
+			name = "POP-DemoTests";
+			productName = "POP-DemoTests";
+			productReference = 34A67E4119114B9A00CCDA78 /* POP-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A67E1819114B9A00CCDA78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Matthew Cheok";
+				TargetAttributes = {
+					34A67E4019114B9A00CCDA78 = {
+						TestTargetID = 34A67E1F19114B9A00CCDA78;
+					};
+				};
+			};
+			buildConfigurationList = 34A67E1B19114B9A00CCDA78 /* Build configuration list for PBXProject "POP-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34A67E1719114B9A00CCDA78;
+			productRefGroup = 34A67E2119114B9A00CCDA78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A67E1F19114B9A00CCDA78 /* POP-Demo */,
+				34A67E4019114B9A00CCDA78 /* POP-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34A67E1E19114B9A00CCDA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A67E3C19114B9A00CCDA78 /* Images.xcassets in Resources */,
+				34A67E2E19114B9A00CCDA78 /* InfoPlist.strings in Resources */,
+				34A67E3719114B9A00CCDA78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A67E3F19114B9A00CCDA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A67E4D19114B9A00CCDA78 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FBD1E351F7E49DC812D703B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CBC3CD26DC34A459C11B9D0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A67E1C19114B9A00CCDA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A67E3419114B9A00CCDA78 /* MCAppDelegate.m in Sources */,
+				34A67E3A19114B9A00CCDA78 /* MCViewController.m in Sources */,
+				9E3818A21A124A8100D39B84 /* MCSequenceController.m in Sources */,
+				34A67E3019114B9A00CCDA78 /* main.m in Sources */,
+				34003227191DFC8300A7CA32 /* POPCGUtils.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A67E3D19114B9A00CCDA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A67E4F19114B9A00CCDA78 /* POP_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34A67E4719114B9A00CCDA78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A67E1F19114B9A00CCDA78 /* POP-Demo */;
+			targetProxy = 34A67E4619114B9A00CCDA78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34A67E2C19114B9A00CCDA78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A67E2D19114B9A00CCDA78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34A67E3519114B9A00CCDA78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A67E3619114B9A00CCDA78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34A67E4B19114B9A00CCDA78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A67E4C19114B9A00CCDA78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34A67E5019114B9A00CCDA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34A67E5119114B9A00CCDA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34A67E5319114B9A00CCDA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D137EBAEA8C5097E6E2B2B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POP-Demo/POP-Demo-Prefix.pch";
+				INFOPLIST_FILE = "POP-Demo/POP-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34A67E5419114B9A00CCDA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB40BA96BCEFC22DA35A58A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POP-Demo/POP-Demo-Prefix.pch";
+				INFOPLIST_FILE = "POP-Demo/POP-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		34A67E5619114B9A00CCDA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D137EBAEA8C5097E6E2B2B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/POP-Demo.app/POP-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POP-Demo/POP-Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "POP-DemoTests/POP-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		34A67E5719114B9A00CCDA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB40BA96BCEFC22DA35A58A /* Pods.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/POP-Demo.app/POP-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POP-Demo/POP-Demo-Prefix.pch";
+				INFOPLIST_FILE = "POP-DemoTests/POP-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A67E1B19114B9A00CCDA78 /* Build configuration list for PBXProject "POP-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A67E5019114B9A00CCDA78 /* Debug */,
+				34A67E5119114B9A00CCDA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A67E5219114B9A00CCDA78 /* Build configuration list for PBXNativeTarget "POP-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A67E5319114B9A00CCDA78 /* Debug */,
+				34A67E5419114B9A00CCDA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A67E5519114B9A00CCDA78 /* Build configuration list for PBXNativeTarget "POP-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A67E5619114B9A00CCDA78 /* Debug */,
+				34A67E5719114B9A00CCDA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34A67E1819114B9A00CCDA78 /* Project object */;
+}

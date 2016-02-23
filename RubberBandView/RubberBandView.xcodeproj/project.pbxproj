@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074C090719650C57002A647E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074C090619650C57002A647E /* Main.storyboard */; };
+		07997AD81964169600937405 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07997ACB1964169600937405 /* AppDelegate.m */; };
+		07997ADC1964169600937405 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07997AD11964169600937405 /* main.m */; };
+		07997ADE1964169600937405 /* RubberBandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07997AD51964169600937405 /* RubberBandView.m */; };
+		07997ADF1964169600937405 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07997AD71964169600937405 /* ViewController.m */; };
+		07B1815F19625CE7009F9A11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B1815E19625CE7009F9A11 /* Foundation.framework */; };
+		07B1816119625CE7009F9A11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B1816019625CE7009F9A11 /* CoreGraphics.framework */; };
+		07B1816319625CE7009F9A11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B1816219625CE7009F9A11 /* UIKit.framework */; };
+		07B181991962697B009F9A11 /* UIColor+MLPFlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B181981962697B009F9A11 /* UIColor+MLPFlatColors.m */; };
+		07B1819B19628457009F9A11 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B1819A19628457009F9A11 /* QuartzCore.framework */; };
+		7180891C1AB2C89A00AFB6C4 /* RefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7180891B1AB2C89A00AFB6C4 /* RefreshView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		074C090619650C57002A647E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		07997ACA1964169600937405 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07997ACB1964169600937405 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07997AD01964169600937405 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07997AD11964169600937405 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07997AD21964169600937405 /* RubberBandView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RubberBandView-Info.plist"; sourceTree = "<group>"; };
+		07997AD31964169600937405 /* RubberBandView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RubberBandView-Prefix.pch"; sourceTree = "<group>"; };
+		07997AD41964169600937405 /* RubberBandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubberBandView.h; sourceTree = "<group>"; };
+		07997AD51964169600937405 /* RubberBandView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RubberBandView.m; sourceTree = "<group>"; };
+		07997AD61964169600937405 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07997AD71964169600937405 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07B1815B19625CE7009F9A11 /* RubberBandView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubberBandView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B1815E19625CE7009F9A11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07B1816019625CE7009F9A11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07B1816219625CE7009F9A11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07B1817D19625CE7009F9A11 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		07B181971962697B009F9A11 /* UIColor+MLPFlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLPFlatColors.h"; sourceTree = "<group>"; };
+		07B181981962697B009F9A11 /* UIColor+MLPFlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLPFlatColors.m"; sourceTree = "<group>"; };
+		07B1819A19628457009F9A11 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7180891A1AB2C89A00AFB6C4 /* RefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshView.h; sourceTree = "<group>"; };
+		7180891B1AB2C89A00AFB6C4 /* RefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B1815819625CE7009F9A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B1819B19628457009F9A11 /* QuartzCore.framework in Frameworks */,
+				07B1816119625CE7009F9A11 /* CoreGraphics.framework in Frameworks */,
+				07B1816319625CE7009F9A11 /* UIKit.framework in Frameworks */,
+				07B1815F19625CE7009F9A11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07997AC91964169600937405 /* RubberBandView */ = {
+			isa = PBXGroup;
+			children = (
+				07997ACA1964169600937405 /* AppDelegate.h */,
+				07997ACB1964169600937405 /* AppDelegate.m */,
+				07997AD41964169600937405 /* RubberBandView.h */,
+				07997AD51964169600937405 /* RubberBandView.m */,
+				07997AD61964169600937405 /* ViewController.h */,
+				07997AD71964169600937405 /* ViewController.m */,
+				074C090619650C57002A647E /* Main.storyboard */,
+				07997AFF1964171A00937405 /* Supporting Files */,
+			);
+			path = RubberBandView;
+			sourceTree = "<group>";
+		};
+		07997AFF1964171A00937405 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07997AD31964169600937405 /* RubberBandView-Prefix.pch */,
+				07997AD21964169600937405 /* RubberBandView-Info.plist */,
+				07997AD11964169600937405 /* main.m */,
+				07997AD01964169600937405 /* Images.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07B1815219625CE7009F9A11 = {
+			isa = PBXGroup;
+			children = (
+				7180891A1AB2C89A00AFB6C4 /* RefreshView.h */,
+				7180891B1AB2C89A00AFB6C4 /* RefreshView.m */,
+				07B181961962697B009F9A11 /* UIColor+MLPFlatColors */,
+				07997AC91964169600937405 /* RubberBandView */,
+				07B1815D19625CE7009F9A11 /* Frameworks */,
+				07B1815C19625CE7009F9A11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07B1815C19625CE7009F9A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B1815B19625CE7009F9A11 /* RubberBandView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07B1815D19625CE7009F9A11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B1819A19628457009F9A11 /* QuartzCore.framework */,
+				07B1815E19625CE7009F9A11 /* Foundation.framework */,
+				07B1816019625CE7009F9A11 /* CoreGraphics.framework */,
+				07B1816219625CE7009F9A11 /* UIKit.framework */,
+				07B1817D19625CE7009F9A11 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07B181961962697B009F9A11 /* UIColor+MLPFlatColors */ = {
+			isa = PBXGroup;
+			children = (
+				07B181971962697B009F9A11 /* UIColor+MLPFlatColors.h */,
+				07B181981962697B009F9A11 /* UIColor+MLPFlatColors.m */,
+			);
+			path = "UIColor+MLPFlatColors";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07B1815A19625CE7009F9A11 /* RubberBandView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B1818D19625CE7009F9A11 /* Build configuration list for PBXNativeTarget "RubberBandView" */;
+			buildPhases = (
+				07B1815719625CE7009F9A11 /* Sources */,
+				07B1815819625CE7009F9A11 /* Frameworks */,
+				07B1815919625CE7009F9A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RubberBandView;
+			productName = DropWater;
+			productReference = 07B1815B19625CE7009F9A11 /* RubberBandView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B1815319625CE7009F9A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = XiaoZi;
+				TargetAttributes = {
+					07B1815A19625CE7009F9A11 = {
+						DevelopmentTeam = 8WZAN427RN;
+					};
+				};
+			};
+			buildConfigurationList = 07B1815619625CE7009F9A11 /* Build configuration list for PBXProject "RubberBandView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07B1815219625CE7009F9A11;
+			productRefGroup = 07B1815C19625CE7009F9A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B1815A19625CE7009F9A11 /* RubberBandView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07B1815919625CE7009F9A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074C090719650C57002A647E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B1815719625CE7009F9A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7180891C1AB2C89A00AFB6C4 /* RefreshView.m in Sources */,
+				07997AD81964169600937405 /* AppDelegate.m in Sources */,
+				07997ADE1964169600937405 /* RubberBandView.m in Sources */,
+				07997ADC1964169600937405 /* main.m in Sources */,
+				07B181991962697B009F9A11 /* UIColor+MLPFlatColors.m in Sources */,
+				07997ADF1964169600937405 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07B1818B19625CE7009F9A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ye Jian (KES8DR83LS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ye Jian (KES8DR83LS)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "BAE9A7EC-6441-43BD-B9D7-8BB0B1A3599A";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07B1818C19625CE7009F9A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ye Jian (KES8DR83LS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ye Jian (KES8DR83LS)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "BAE9A7EC-6441-43BD-B9D7-8BB0B1A3599A";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07B1818E19625CE7009F9A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubberBandView/RubberBandView-Prefix.pch";
+				INFOPLIST_FILE = "RubberBandView/RubberBandView-Info.plist";
+				PRODUCT_NAME = RubberBandView;
+				PROVISIONING_PROFILE = "BAE9A7EC-6441-43BD-B9D7-8BB0B1A3599A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07B1818F19625CE7009F9A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubberBandView/RubberBandView-Prefix.pch";
+				INFOPLIST_FILE = "RubberBandView/RubberBandView-Info.plist";
+				PRODUCT_NAME = RubberBandView;
+				PROVISIONING_PROFILE = "BAE9A7EC-6441-43BD-B9D7-8BB0B1A3599A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B1815619625CE7009F9A11 /* Build configuration list for PBXProject "RubberBandView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B1818B19625CE7009F9A11 /* Debug */,
+				07B1818C19625CE7009F9A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B1818D19625CE7009F9A11 /* Build configuration list for PBXNativeTarget "RubberBandView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B1818E19625CE7009F9A11 /* Debug */,
+				07B1818F19625CE7009F9A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B1815319625CE7009F9A11 /* Project object */;
+}

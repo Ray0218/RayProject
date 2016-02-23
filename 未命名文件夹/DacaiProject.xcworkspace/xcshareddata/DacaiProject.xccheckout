@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>319F13DF-22E2-4056-85EA-C25A67FCECFD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DacaiProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>02f93f08-7ac8-d945-b02b-bab7e629ceee++7278</key>
+		<string>https://10.12.2.200:8090/svn/IOS/DacaiProject</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DacaiProject.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>02f93f08-7ac8-d945-b02b-bab7e629ceee++7278</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>02f93f08-7ac8-d945-b02b-bab7e629ceee++7278</key>
+		<string>https://10.12.2.200:8090/svn/IOS</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://10.12.2.200:8090/svn/IOS/DacaiProject/DacaiProject.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>02f93f08-7ac8-d945-b02b-bab7e629ceee++7278</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>02f93f08-7ac8-d945-b02b-bab7e629ceee++7278</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DacaiProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>

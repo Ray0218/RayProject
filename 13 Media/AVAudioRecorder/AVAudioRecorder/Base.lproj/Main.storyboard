@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lyjbjt" translatesAutoresizingMaskIntoConstraints="NO" id="O5c-hA-nKI" propertyAccessControl="all">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8el-7A-kUj" userLabel="AudioPower">
+                                <rect key="frame" x="20" y="200" width="280" height="2"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qqb-ng-BZ0" userLabel="Record">
+                                <rect key="frame" x="24" y="470" width="52" height="52"/>
+                                <state key="normal" image="lyj_lyan">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="recordClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pvd-f1-Sg8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8J-xa-ser" userLabel="Pause">
+                                <rect key="frame" x="102" y="470" width="52" height="52"/>
+                                <state key="normal" image="lyj_atan">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pauseClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="esL-9c-dBW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Z0-a7-DPu" userLabel="Continue">
+                                <rect key="frame" x="172" y="470" width="52" height="52"/>
+                                <state key="normal" image="lyj_bfq_bfan">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resumeClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UBV-rE-cYd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BO7-cH-kuf" userLabel="Stop">
+                                <rect key="frame" x="245" y="470" width="52" height="52"/>
+                                <state key="normal" image="lyj_tian">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="AAT-sC-ovo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="audioPower" destination="8el-7A-kUj" id="ajI-IL-5vk"/>
+                        <outlet property="pause" destination="f8J-xa-ser" id="t8S-uQ-KeH"/>
+                        <outlet property="record" destination="qqb-ng-BZ0" id="V4O-Og-aay"/>
+                        <outlet property="resume" destination="3Z0-a7-DPu" id="Mra-BM-yzp"/>
+                        <outlet property="stop" destination="BO7-cH-kuf" id="8nT-LG-fxk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lyj_atan" width="52" height="52"/>
+        <image name="lyj_bfq_bfan" width="52" height="52"/>
+        <image name="lyj_lyan" width="52" height="52"/>
+        <image name="lyj_tian" width="52" height="52"/>
+        <image name="lyjbjt" width="320" height="480"/>
+    </resources>
+</document>

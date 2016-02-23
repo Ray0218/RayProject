@@ -1,0 +1,5 @@
+#include "Pods-Protobuf.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/Protobuf" "${PODS_ROOT}/Headers/Build/Protobuf/google/protobuf" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Protobuf" "${PODS_ROOT}/Headers/Public/Protobuf/google/protobuf"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}

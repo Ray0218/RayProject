@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1AE53E66F035EA51CAFD0FF31E23E3 /* SLSTagParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D43DC6CF93DEB27448D816453430063 /* SLSTagParser.h */; };
+		121B3AFF5FD7EAB7C5DEFA590B6720F6 /* MTStringParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA59F62BAE4F514223117D7DACC9114 /* MTStringParser.m */; };
+		1247B4EEDCFCAD0A031FD4002F4D4234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5771A668BCC8DF284EFBDBE91413C61 /* Foundation.framework */; };
+		15921F3649EB17FE54048FC3BAC0A2CA /* SLSTagLexer.gen.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A0F91F7540AFB78D4CE76B8E9DFC38 /* SLSTagLexer.gen.h */; };
+		2B058639F960E70130E631405F313271 /* SLSErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = C157E736462A1D3DBB2BE64A20F92BCE /* SLSErrors.h */; };
+		2B8C7E91D2A5D6C6D5A9C178CDDC7866 /* SLSTaggedRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A26899B2C8E7AE3100582FFD727BF62 /* SLSTaggedRange.h */; };
+		2C019C728D7B9994B43B398D6CD8F796 /* MTStringAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 737AC5542CDEF3CD0B8DBDD6C16BF629 /* MTStringAttributes.h */; };
+		2F87934C0FA9D7D4817AACB570C1BB89 /* MTStringAttributes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F74068856822F5E5A4591EB87BCC420 /* MTStringAttributes-dummy.m */; };
+		40D3B589DB37F3A080A2512A247CA873 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3189BA2C24813FF02DA03D8E23E608D2 /* CoreText.framework */; };
+		4FE6C60A023DAE7B0EB9C3A019C7CEF0 /* SLSTagLexer.gen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9D1B494EB4892A90176D1DCF1095A7 /* SLSTagLexer.gen.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		58522D090D7D93183BA6D9BE39C70F3A /* Slash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C80640C2B59B7701E893D48BBE6E5947 /* Slash-dummy.m */; };
+		6A2349E818402C17827FDB46E1AD1FB4 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C74BEC523A51BDB52131B1A7AB32A02 /* Pods-dummy.m */; };
+		712043426E36AC07E8DB0ED39542B7F7 /* MTStringAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = A3363A4D73FF7A323862FEF12764C5D8 /* MTStringAttributes.m */; };
+		715D34AC0F7CDCB1ADAB53974C9E813C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5771A668BCC8DF284EFBDBE91413C61 /* Foundation.framework */; };
+		7B6311920F13CDDD780B1119D84AF983 /* SLSMarkupParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C3C73A35ED2B474F75C69BF5236E2D8 /* SLSMarkupParser.h */; };
+		824A0036B9BCD3F076F1617C8087C322 /* MTStringParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4274D1F2AC83E79BBE6425B3D9AD3437 /* MTStringParser.h */; };
+		852A7B610D889C85E0CA7FE5450FD44A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5771A668BCC8DF284EFBDBE91413C61 /* Foundation.framework */; };
+		9382265E6FB028529A9B7BAF0B88A0B6 /* Slash.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE0E954B3486D39D1CC88333AA502BE /* Slash.h */; };
+		A01CABA168B5CF44E9F45C2BDDAE2639 /* SLSMarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A35E38F0AE2902B260D7D2B722553220 /* SLSMarkupParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A7B4ECA8E3C86FB54B42EFDEBF3891C9 /* SLSTagParser.gen.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FA5BB42B732780A448124EFB37B548 /* SLSTagParser.gen.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E29DC831C2C305D5E752CD35D9F8B729 /* SLSTagParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 843EBA0675C12C7564D615E81CE5BFBB /* SLSTagParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EFAD68CF7937E553A2B7A15507AC5A2D /* SLSTagParser.gen.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BB47314E17AA58116D46C084FF6B59 /* SLSTagParser.gen.h */; };
+		F2B236E3C7F215A5965E4D9124F1E892 /* SLSTaggedRange.m in Sources */ = {isa = PBXBuildFile; fileRef = C1581DA022A0EAE3B54AFE063B78F7D2 /* SLSTaggedRange.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D899431046508447BD430D47BF04B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3BC55AEEF02336987E51B5B7BD1EFB3;
+			remoteInfo = Slash;
+		};
+		5E022A6EB5F75BDB58E5290567B4DB60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3BC55AEEF02336987E51B5B7BD1EFB3;
+			remoteInfo = Slash;
+		};
+		BBBEC6521805213FF66F1F3C92E810AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7EFDD4DEA52E1879A9DF385EFD87842;
+			remoteInfo = MTStringAttributes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050FE018CF10DA34EDDA0D7307F3F51E /* libSlash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSlash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19076FCC4D4BCBF5E8291DF87805B660 /* Slash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Slash.xcconfig; sourceTree = "<group>"; };
+		1C3C73A35ED2B474F75C69BF5236E2D8 /* SLSMarkupParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLSMarkupParser.h; path = Slash/SLSMarkupParser.h; sourceTree = "<group>"; };
+		2A26899B2C8E7AE3100582FFD727BF62 /* SLSTaggedRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLSTaggedRange.h; path = Slash/SLSTaggedRange.h; sourceTree = "<group>"; };
+		3189BA2C24813FF02DA03D8E23E608D2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		38C95B265E10C728F0D357E072CD69B9 /* MTStringAttributes-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MTStringAttributes-Private.xcconfig"; sourceTree = "<group>"; };
+		3D43DC6CF93DEB27448D816453430063 /* SLSTagParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLSTagParser.h; path = Slash/SLSTagParser.h; sourceTree = "<group>"; };
+		4099C4231C290983A633B4BD2EB15D1F /* MTStringAttributes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTStringAttributes.xcconfig; sourceTree = "<group>"; };
+		4274D1F2AC83E79BBE6425B3D9AD3437 /* MTStringParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTStringParser.h; path = MTStringAttributes/MTStringParser.h; sourceTree = "<group>"; };
+		45A0C80A58086AFF95FEEB303E056F6F /* MTStringAttributes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTStringAttributes-prefix.pch"; sourceTree = "<group>"; };
+		4F74068856822F5E5A4591EB87BCC420 /* MTStringAttributes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTStringAttributes-dummy.m"; sourceTree = "<group>"; };
+		5C74BEC523A51BDB52131B1A7AB32A02 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		6756874CF1B201CB91E21ED4631C70DD /* libMTStringAttributes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMTStringAttributes.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D9D1B494EB4892A90176D1DCF1095A7 /* SLSTagLexer.gen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLSTagLexer.gen.m; path = Slash/SLSTagLexer.gen.m; sourceTree = "<group>"; };
+		72FA5BB42B732780A448124EFB37B548 /* SLSTagParser.gen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLSTagParser.gen.m; path = Slash/SLSTagParser.gen.m; sourceTree = "<group>"; };
+		737AC5542CDEF3CD0B8DBDD6C16BF629 /* MTStringAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTStringAttributes.h; path = MTStringAttributes/MTStringAttributes.h; sourceTree = "<group>"; };
+		77A3EEBE13E289EECE55DACCB2AA16B4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		842B814FC27F7470D0706C952B1AA65D /* Slash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Slash-prefix.pch"; sourceTree = "<group>"; };
+		843EBA0675C12C7564D615E81CE5BFBB /* SLSTagParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLSTagParser.m; path = Slash/SLSTagParser.m; sourceTree = "<group>"; };
+		A3363A4D73FF7A323862FEF12764C5D8 /* MTStringAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTStringAttributes.m; path = MTStringAttributes/MTStringAttributes.m; sourceTree = "<group>"; };
+		A35E38F0AE2902B260D7D2B722553220 /* SLSMarkupParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLSMarkupParser.m; path = Slash/SLSMarkupParser.m; sourceTree = "<group>"; };
+		B5771A668BCC8DF284EFBDBE91413C61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAA59F62BAE4F514223117D7DACC9114 /* MTStringParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTStringParser.m; path = MTStringAttributes/MTStringParser.m; sourceTree = "<group>"; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C157E736462A1D3DBB2BE64A20F92BCE /* SLSErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLSErrors.h; path = Slash/SLSErrors.h; sourceTree = "<group>"; };
+		C1581DA022A0EAE3B54AFE063B78F7D2 /* SLSTaggedRange.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLSTaggedRange.m; path = Slash/SLSTaggedRange.m; sourceTree = "<group>"; };
+		C80640C2B59B7701E893D48BBE6E5947 /* Slash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Slash-dummy.m"; sourceTree = "<group>"; };
+		C99CB9E042A95922C57D16352B406515 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		C9BB47314E17AA58116D46C084FF6B59 /* SLSTagParser.gen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLSTagParser.gen.h; path = Slash/SLSTagParser.gen.h; sourceTree = "<group>"; };
+		CEE0E954B3486D39D1CC88333AA502BE /* Slash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Slash.h; path = Slash/Slash.h; sourceTree = "<group>"; };
+		D998027186FCB47172CC965607E3A3EF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A0F91F7540AFB78D4CE76B8E9DFC38 /* SLSTagLexer.gen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLSTagLexer.gen.h; path = Slash/SLSTagLexer.gen.h; sourceTree = "<group>"; };
+		FA16918264E948423AE7AE42828C927C /* Slash-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Slash-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B09828AA2356AFFBF95CFB330E4873A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715D34AC0F7CDCB1ADAB53974C9E813C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2899622DDD15644F84BAA0771DCAB38A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1247B4EEDCFCAD0A031FD4002F4D4234 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B989095998CF1A561FEAC15FECB0F44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D3B589DB37F3A080A2512A247CA873 /* CoreText.framework in Frameworks */,
+				852A7B610D889C85E0CA7FE5450FD44A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4D79514FFDADD15C8DD29309BF349F /* MTStringAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				737AC5542CDEF3CD0B8DBDD6C16BF629 /* MTStringAttributes.h */,
+				A3363A4D73FF7A323862FEF12764C5D8 /* MTStringAttributes.m */,
+				4274D1F2AC83E79BBE6425B3D9AD3437 /* MTStringParser.h */,
+				BAA59F62BAE4F514223117D7DACC9114 /* MTStringParser.m */,
+				98E568ABF060CA5E1ABA1D09BE50F4C8 /* Support Files */,
+			);
+			path = MTStringAttributes;
+			sourceTree = "<group>";
+		};
+		3EA38DEF17E5F7DCF9C911FE19C77409 /* Slash */ = {
+			isa = PBXGroup;
+			children = (
+				C12D101DE259DAB854E9BD9EFD778A40 /* Support Files */,
+				BE77F490259EDC9B9CBAB805DA02C4F1 /* arc */,
+				87D856CD70D349647B4B3AB0C14ECB05 /* no-arc */,
+			);
+			path = Slash;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50259886C94ADC1E7D22C3FC83407CA7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50259886C94ADC1E7D22C3FC83407CA7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3189BA2C24813FF02DA03D8E23E608D2 /* CoreText.framework */,
+				B5771A668BCC8DF284EFBDBE91413C61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6FB457A33A99A1CF9A2DEB1F3E7820F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F4D79514FFDADD15C8DD29309BF349F /* MTStringAttributes */,
+				3EA38DEF17E5F7DCF9C911FE19C77409 /* Slash */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6FB457A33A99A1CF9A2DEB1F3E7820F6 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87D856CD70D349647B4B3AB0C14ECB05 /* no-arc */ = {
+			isa = PBXGroup;
+			children = (
+				6D9D1B494EB4892A90176D1DCF1095A7 /* SLSTagLexer.gen.m */,
+				843EBA0675C12C7564D615E81CE5BFBB /* SLSTagParser.m */,
+				72FA5BB42B732780A448124EFB37B548 /* SLSTagParser.gen.m */,
+			);
+			name = "no-arc";
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				5C74BEC523A51BDB52131B1A7AB32A02 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				77A3EEBE13E289EECE55DACCB2AA16B4 /* Pods.debug.xcconfig */,
+				C99CB9E042A95922C57D16352B406515 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		98E568ABF060CA5E1ABA1D09BE50F4C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4099C4231C290983A633B4BD2EB15D1F /* MTStringAttributes.xcconfig */,
+				38C95B265E10C728F0D357E072CD69B9 /* MTStringAttributes-Private.xcconfig */,
+				4F74068856822F5E5A4591EB87BCC420 /* MTStringAttributes-dummy.m */,
+				45A0C80A58086AFF95FEEB303E056F6F /* MTStringAttributes-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MTStringAttributes";
+			sourceTree = "<group>";
+		};
+		BE77F490259EDC9B9CBAB805DA02C4F1 /* arc */ = {
+			isa = PBXGroup;
+			children = (
+				C157E736462A1D3DBB2BE64A20F92BCE /* SLSErrors.h */,
+				1C3C73A35ED2B474F75C69BF5236E2D8 /* SLSMarkupParser.h */,
+				A35E38F0AE2902B260D7D2B722553220 /* SLSMarkupParser.m */,
+				D9A0F91F7540AFB78D4CE76B8E9DFC38 /* SLSTagLexer.gen.h */,
+				3D43DC6CF93DEB27448D816453430063 /* SLSTagParser.h */,
+				C9BB47314E17AA58116D46C084FF6B59 /* SLSTagParser.gen.h */,
+				2A26899B2C8E7AE3100582FFD727BF62 /* SLSTaggedRange.h */,
+				C1581DA022A0EAE3B54AFE063B78F7D2 /* SLSTaggedRange.m */,
+				CEE0E954B3486D39D1CC88333AA502BE /* Slash.h */,
+			);
+			name = arc;
+			sourceTree = "<group>";
+		};
+		C12D101DE259DAB854E9BD9EFD778A40 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19076FCC4D4BCBF5E8291DF87805B660 /* Slash.xcconfig */,
+				FA16918264E948423AE7AE42828C927C /* Slash-Private.xcconfig */,
+				C80640C2B59B7701E893D48BBE6E5947 /* Slash-dummy.m */,
+				842B814FC27F7470D0706C952B1AA65D /* Slash-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Slash";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6756874CF1B201CB91E21ED4631C70DD /* libMTStringAttributes.a */,
+				D998027186FCB47172CC965607E3A3EF /* libPods.a */,
+				050FE018CF10DA34EDDA0D7307F3F51E /* libSlash.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5BD62ED26653AA85DE543D9E432C5CF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C019C728D7B9994B43B398D6CD8F796 /* MTStringAttributes.h in Headers */,
+				824A0036B9BCD3F076F1617C8087C322 /* MTStringParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA31191551BEDE2ACA8AE1476C1FF4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B058639F960E70130E631405F313271 /* SLSErrors.h in Headers */,
+				7B6311920F13CDDD780B1119D84AF983 /* SLSMarkupParser.h in Headers */,
+				15921F3649EB17FE54048FC3BAC0A2CA /* SLSTagLexer.gen.h in Headers */,
+				EFAD68CF7937E553A2B7A15507AC5A2D /* SLSTagParser.gen.h in Headers */,
+				0C1AE53E66F035EA51CAFD0FF31E23E3 /* SLSTagParser.h in Headers */,
+				2B8C7E91D2A5D6C6D5A9C178CDDC7866 /* SLSTaggedRange.h in Headers */,
+				9382265E6FB028529A9B7BAF0B88A0B6 /* Slash.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		506492AA597C6762695C455DE8427D98 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8C8A2E6BE01892614B352272B0B329 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				B2508D9CF7376B27762B0EB1F05A3EE4 /* Sources */,
+				0B09828AA2356AFFBF95CFB330E4873A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6E93F644D2778965A1661E86413CFD /* PBXTargetDependency */,
+				F11BC0B6DCC968D94F0AA69D6120C9BD /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = D998027186FCB47172CC965607E3A3EF /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A3BC55AEEF02336987E51B5B7BD1EFB3 /* Slash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73436A1A6D8609A69AF83923963723F8 /* Build configuration list for PBXNativeTarget "Slash" */;
+			buildPhases = (
+				E3C8584553153E8780BD7D8B1993687B /* Sources */,
+				B989095998CF1A561FEAC15FECB0F44B /* Frameworks */,
+				FDA31191551BEDE2ACA8AE1476C1FF4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slash;
+			productName = Slash;
+			productReference = 050FE018CF10DA34EDDA0D7307F3F51E /* libSlash.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D7EFDD4DEA52E1879A9DF385EFD87842 /* MTStringAttributes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99DC8F036AFDD4D988BAF366ED56076 /* Build configuration list for PBXNativeTarget "MTStringAttributes" */;
+			buildPhases = (
+				133FB13360D7811F63E17FA65A53C6AF /* Sources */,
+				2899622DDD15644F84BAA0771DCAB38A /* Frameworks */,
+				5BD62ED26653AA85DE543D9E432C5CF9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B4F577E0E85FEBCFCA92BF4C6D0511 /* PBXTargetDependency */,
+			);
+			name = MTStringAttributes;
+			productName = MTStringAttributes;
+			productReference = 6756874CF1B201CB91E21ED4631C70DD /* libMTStringAttributes.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7EFDD4DEA52E1879A9DF385EFD87842 /* MTStringAttributes */,
+				506492AA597C6762695C455DE8427D98 /* Pods */,
+				A3BC55AEEF02336987E51B5B7BD1EFB3 /* Slash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133FB13360D7811F63E17FA65A53C6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F87934C0FA9D7D4817AACB570C1BB89 /* MTStringAttributes-dummy.m in Sources */,
+				712043426E36AC07E8DB0ED39542B7F7 /* MTStringAttributes.m in Sources */,
+				121B3AFF5FD7EAB7C5DEFA590B6720F6 /* MTStringParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2508D9CF7376B27762B0EB1F05A3EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2349E818402C17827FDB46E1AD1FB4 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C8584553153E8780BD7D8B1993687B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01CABA168B5CF44E9F45C2BDDAE2639 /* SLSMarkupParser.m in Sources */,
+				4FE6C60A023DAE7B0EB9C3A019C7CEF0 /* SLSTagLexer.gen.m in Sources */,
+				A7B4ECA8E3C86FB54B42EFDEBF3891C9 /* SLSTagParser.gen.m in Sources */,
+				E29DC831C2C305D5E752CD35D9F8B729 /* SLSTagParser.m in Sources */,
+				F2B236E3C7F215A5965E4D9124F1E892 /* SLSTaggedRange.m in Sources */,
+				58522D090D7D93183BA6D9BE39C70F3A /* Slash-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26B4F577E0E85FEBCFCA92BF4C6D0511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Slash;
+			target = A3BC55AEEF02336987E51B5B7BD1EFB3 /* Slash */;
+			targetProxy = 4D899431046508447BD430D47BF04B12 /* PBXContainerItemProxy */;
+		};
+		CE6E93F644D2778965A1661E86413CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTStringAttributes;
+			target = D7EFDD4DEA52E1879A9DF385EFD87842 /* MTStringAttributes */;
+			targetProxy = BBBEC6521805213FF66F1F3C92E810AC /* PBXContainerItemProxy */;
+		};
+		F11BC0B6DCC968D94F0AA69D6120C9BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Slash;
+			target = A3BC55AEEF02336987E51B5B7BD1EFB3 /* Slash */;
+			targetProxy = 5E022A6EB5F75BDB58E5290567B4DB60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34189289E0EDCF6FC5D86EDEEDBA0A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A3EEBE13E289EECE55DACCB2AA16B4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		445D7ED352B0F58375DC19BC132DF2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C95B265E10C728F0D357E072CD69B9 /* MTStringAttributes-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MTStringAttributes/MTStringAttributes-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4F72894AAC25331FF686794E56AE2020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C95B265E10C728F0D357E072CD69B9 /* MTStringAttributes-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MTStringAttributes/MTStringAttributes-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		674D306952A647F23781B23F0E63A7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99CB9E042A95922C57D16352B406515 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8327A8D1653B8C9CD0D26FCEC69CB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA16918264E948423AE7AE42828C927C /* Slash-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Slash/Slash-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C0888A00DB27688FB632E9CE63B7170A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA16918264E948423AE7AE42828C927C /* Slash-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Slash/Slash-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73436A1A6D8609A69AF83923963723F8 /* Build configuration list for PBXNativeTarget "Slash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8327A8D1653B8C9CD0D26FCEC69CB60 /* Debug */,
+				C0888A00DB27688FB632E9CE63B7170A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99DC8F036AFDD4D988BAF366ED56076 /* Build configuration list for PBXNativeTarget "MTStringAttributes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445D7ED352B0F58375DC19BC132DF2D1 /* Debug */,
+				4F72894AAC25331FF686794E56AE2020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8C8A2E6BE01892614B352272B0B329 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34189289E0EDCF6FC5D86EDEEDBA0A40 /* Debug */,
+				674D306952A647F23781B23F0E63A7E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

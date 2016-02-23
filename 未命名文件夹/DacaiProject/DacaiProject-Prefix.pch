@@ -1,0 +1,51 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    // third library
+    #import <Masonry/Masonry.h>
+    #import <MBProgressHUD/MBProgressHUD.h>
+    #import <BlocksKit/BlocksKit.h>
+    #import <BlocksKit/BlocksKit+UIKit.h>
+
+    // base
+    #import "Common/Macros/DeviceMacro.h"
+    #import "Common/Macros/DebugMacro.h"
+    #import "Common/Macros/HelperMacro.h"
+    #import "Common/Macros/CommonDefine.h"
+    #import "Common/Macros/GameTypeEnum.h"
+    #import "Common/Macros/DPErrorParser.h"
+
+    #import "Common/Utilities/DPFileUtilities.h"
+    #import "Common/Utilities/DPCryptUtilities.h"
+    #import "Common/Utilities/DPSystemUtilities.h"
+    #import "Common/Utilities/DPDeviceUtilities.h"
+
+    // component
+    #import "Common/Component/DPToast/DPToast.h"
+
+    // category
+    #import "Common/Categories/DPCategories.h"
+
+    //
+    #import "DPAppDelegate.h"
+#endif
+
+// clear third library log
+#ifndef __OPTIMIZE__
+#define NSLog(format, ...)      NSLog(format, ##__VA_ARGS__)
+#else
+#define NSLog(...)      {}
+#endif

@@ -1,0 +1,4 @@
+
+platform:ios, '7.0'
+
+pod 'Protobuf', '~> 3.0.0-alpha-3'

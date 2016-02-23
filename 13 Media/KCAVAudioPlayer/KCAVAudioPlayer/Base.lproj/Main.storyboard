@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="baN-b5-TSo">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="G7U-dI-HXe">
+            <objects>
+                <navigationController id="baN-b5-TSo" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cWO-MV-VIA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="2jt-VR-sJP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sik-s7-m0Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-85" y="314"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ren'eLiu" translatesAutoresizingMaskIntoConstraints="NO" id="r78-ln-aRn">
+                                <rect key="frame" x="0.0" y="-8" width="320" height="568"/>
+                            </imageView>
+                            <view alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XUX-xj-1Lh" userLabel="controlPanel">
+                                <rect key="frame" x="0.0" y="408" width="320" height="160"/>
+                                <subviews>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U53-4E-XaO" userLabel="progress">
+                                        <rect key="frame" x="0.0" y="60" width="320" height="2"/>
+                                    </progressView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57v-Uy-Oxv" userLabel="play">
+                                        <rect key="frame" x="128" y="78" width="65" height="65"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" image="playing_btn_play_n"/>
+                                        <state key="highlighted" image="playing_btn_play_h"/>
+                                        <connections>
+                                            <action selector="playClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yLW-dN-Bz3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skc-yk-fJw" userLabel="prev">
+                                        <rect key="frame" x="40" y="78" width="75" height="65"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" image="playing_btn_pre_n"/>
+                                        <state key="highlighted" image="playing_btn_pre_h"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSv-x3-iaF" userLabel="next">
+                                        <rect key="frame" x="212" y="78" width="75" height="65"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" image="playing_btn_next_n"/>
+                                        <state key="highlighted" image="playing_btn_next_h"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0UG-Ig-ScL" userLabel="love">
+                                        <rect key="frame" x="262" y="11" width="40" height="40"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" image="playing_btn_love"/>
+                                        <state key="highlighted" image="playing_btn_love_h"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0E1-0a-MGm" userLabel="singer">
+                                        <rect key="frame" x="8" y="18" width="203" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUs-Bd-4CD" userLabel="download">
+                                        <rect key="frame" x="219" y="11" width="40" height="40"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" image="nowplaying_download_btn"/>
+                                        <state key="highlighted" image="nowplaying_download_btn_h"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cIl-mi-5XU"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="controlPanel" destination="0E1-0a-MGm" id="Xl6-DO-DuC"/>
+                        <outlet property="musicSinger" destination="0E1-0a-MGm" id="jBr-pR-uYP"/>
+                        <outlet property="playOrPause" destination="57v-Uy-Oxv" id="fpH-nS-9fS"/>
+                        <outlet property="playProgress" destination="U53-4E-XaO" id="JoY-WY-wD8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="290" y="314"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ren'eLiu" width="550" height="745"/>
+        <image name="nowplaying_download_btn" width="40" height="40"/>
+        <image name="nowplaying_download_btn_h" width="40" height="40"/>
+        <image name="playing_btn_love" width="40" height="40"/>
+        <image name="playing_btn_love_h" width="40" height="40"/>
+        <image name="playing_btn_next_h" width="40" height="40"/>
+        <image name="playing_btn_next_n" width="40" height="40"/>
+        <image name="playing_btn_play_h" width="65" height="65"/>
+        <image name="playing_btn_play_n" width="65" height="65"/>
+        <image name="playing_btn_pre_h" width="40" height="40"/>
+        <image name="playing_btn_pre_n" width="40" height="40"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+#include "Slash.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/Slash" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/MTStringAttributes" "${PODS_ROOT}/Headers/Public/Slash"
+OTHER_LDFLAGS = ${SLASH_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		587B5BE61782790B00BE97D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587B5BE51782790B00BE97D5 /* UIKit.framework */; };
+		587B5BE81782790B00BE97D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587B5BE71782790B00BE97D5 /* Foundation.framework */; };
+		587B5BEA1782790B00BE97D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587B5BE91782790B00BE97D5 /* CoreGraphics.framework */; };
+		587B5BF01782790B00BE97D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 587B5BEE1782790B00BE97D5 /* InfoPlist.strings */; };
+		587B5BF21782790B00BE97D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 587B5BF11782790B00BE97D5 /* main.m */; };
+		587B5BF61782790B00BE97D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587B5BF51782790B00BE97D5 /* AppDelegate.m */; };
+		587B5BF81782790B00BE97D5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 587B5BF71782790B00BE97D5 /* Default.png */; };
+		587B5BFA1782790B00BE97D5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587B5BF91782790B00BE97D5 /* Default@2x.png */; };
+		587B5BFC1782790B00BE97D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587B5BFB1782790B00BE97D5 /* Default-568h@2x.png */; };
+		587B5BFF1782790B00BE97D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587B5BFE1782790B00BE97D5 /* ViewController.m */; };
+		587B5C021782790B00BE97D5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 587B5C001782790B00BE97D5 /* ViewController.xib */; };
+		587B5C0917827BC700BE97D5 /* mn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587B5C0817827BC700BE97D5 /* mn.jpg */; };
+		587B5C0C17827FC100BE97D5 /* SmallMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 587B5C0B17827FC100BE97D5 /* SmallMapView.m */; };
+		587B5C0F1782830A00BE97D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587B5C0E1782830A00BE97D5 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		587B5BE21782790B00BE97D5 /* littleMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littleMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		587B5BE51782790B00BE97D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		587B5BE71782790B00BE97D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		587B5BE91782790B00BE97D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		587B5BED1782790B00BE97D5 /* littleMapView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "littleMapView-Info.plist"; sourceTree = "<group>"; };
+		587B5BEF1782790B00BE97D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		587B5BF11782790B00BE97D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		587B5BF31782790B00BE97D5 /* littleMapView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "littleMapView-Prefix.pch"; sourceTree = "<group>"; };
+		587B5BF41782790B00BE97D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		587B5BF51782790B00BE97D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		587B5BF71782790B00BE97D5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		587B5BF91782790B00BE97D5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		587B5BFB1782790B00BE97D5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		587B5BFD1782790B00BE97D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		587B5BFE1782790B00BE97D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		587B5C011782790B00BE97D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		587B5C0817827BC700BE97D5 /* mn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mn.jpg; sourceTree = "<group>"; };
+		587B5C0A17827FC100BE97D5 /* SmallMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallMapView.h; sourceTree = "<group>"; };
+		587B5C0B17827FC100BE97D5 /* SmallMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallMapView.m; sourceTree = "<group>"; };
+		587B5C0E1782830A00BE97D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		587B5BDF1782790B00BE97D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587B5C0F1782830A00BE97D5 /* QuartzCore.framework in Frameworks */,
+				587B5BE61782790B00BE97D5 /* UIKit.framework in Frameworks */,
+				587B5BE81782790B00BE97D5 /* Foundation.framework in Frameworks */,
+				587B5BEA1782790B00BE97D5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		587B5BD91782790B00BE97D5 = {
+			isa = PBXGroup;
+			children = (
+				587B5BEB1782790B00BE97D5 /* littleMapView */,
+				587B5BE41782790B00BE97D5 /* Frameworks */,
+				587B5BE31782790B00BE97D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		587B5BE31782790B00BE97D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				587B5BE21782790B00BE97D5 /* littleMapView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		587B5BE41782790B00BE97D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				587B5C0E1782830A00BE97D5 /* QuartzCore.framework */,
+				587B5BE51782790B00BE97D5 /* UIKit.framework */,
+				587B5BE71782790B00BE97D5 /* Foundation.framework */,
+				587B5BE91782790B00BE97D5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		587B5BEB1782790B00BE97D5 /* littleMapView */ = {
+			isa = PBXGroup;
+			children = (
+				587B5C0D17827FC800BE97D5 /* Views */,
+				587B5C0817827BC700BE97D5 /* mn.jpg */,
+				587B5BF41782790B00BE97D5 /* AppDelegate.h */,
+				587B5BF51782790B00BE97D5 /* AppDelegate.m */,
+				587B5BFD1782790B00BE97D5 /* ViewController.h */,
+				587B5BFE1782790B00BE97D5 /* ViewController.m */,
+				587B5C001782790B00BE97D5 /* ViewController.xib */,
+				587B5BEC1782790B00BE97D5 /* Supporting Files */,
+			);
+			path = littleMapView;
+			sourceTree = "<group>";
+		};
+		587B5BEC1782790B00BE97D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				587B5BED1782790B00BE97D5 /* littleMapView-Info.plist */,
+				587B5BEE1782790B00BE97D5 /* InfoPlist.strings */,
+				587B5BF11782790B00BE97D5 /* main.m */,
+				587B5BF31782790B00BE97D5 /* littleMapView-Prefix.pch */,
+				587B5BF71782790B00BE97D5 /* Default.png */,
+				587B5BF91782790B00BE97D5 /* Default@2x.png */,
+				587B5BFB1782790B00BE97D5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		587B5C0D17827FC800BE97D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				587B5C0A17827FC100BE97D5 /* SmallMapView.h */,
+				587B5C0B17827FC100BE97D5 /* SmallMapView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		587B5BE11782790B00BE97D5 /* littleMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587B5C051782790B00BE97D5 /* Build configuration list for PBXNativeTarget "littleMapView" */;
+			buildPhases = (
+				587B5BDE1782790B00BE97D5 /* Sources */,
+				587B5BDF1782790B00BE97D5 /* Frameworks */,
+				587B5BE01782790B00BE97D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = littleMapView;
+			productName = littleMapView;
+			productReference = 587B5BE21782790B00BE97D5 /* littleMapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		587B5BDA1782790B00BE97D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = fuqiang;
+			};
+			buildConfigurationList = 587B5BDD1782790B00BE97D5 /* Build configuration list for PBXProject "littleMapView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 587B5BD91782790B00BE97D5;
+			productRefGroup = 587B5BE31782790B00BE97D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				587B5BE11782790B00BE97D5 /* littleMapView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		587B5BE01782790B00BE97D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587B5BF01782790B00BE97D5 /* InfoPlist.strings in Resources */,
+				587B5BF81782790B00BE97D5 /* Default.png in Resources */,
+				587B5BFA1782790B00BE97D5 /* Default@2x.png in Resources */,
+				587B5BFC1782790B00BE97D5 /* Default-568h@2x.png in Resources */,
+				587B5C021782790B00BE97D5 /* ViewController.xib in Resources */,
+				587B5C0917827BC700BE97D5 /* mn.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		587B5BDE1782790B00BE97D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587B5BF21782790B00BE97D5 /* main.m in Sources */,
+				587B5BF61782790B00BE97D5 /* AppDelegate.m in Sources */,
+				587B5BFF1782790B00BE97D5 /* ViewController.m in Sources */,
+				587B5C0C17827FC100BE97D5 /* SmallMapView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		587B5BEE1782790B00BE97D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587B5BEF1782790B00BE97D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		587B5C001782790B00BE97D5 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587B5C011782790B00BE97D5 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		587B5C031782790B00BE97D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		587B5C041782790B00BE97D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		587B5C061782790B00BE97D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "littleMapView/littleMapView-Prefix.pch";
+				INFOPLIST_FILE = "littleMapView/littleMapView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		587B5C071782790B00BE97D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "littleMapView/littleMapView-Prefix.pch";
+				INFOPLIST_FILE = "littleMapView/littleMapView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		587B5BDD1782790B00BE97D5 /* Build configuration list for PBXProject "littleMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587B5C031782790B00BE97D5 /* Debug */,
+				587B5C041782790B00BE97D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587B5C051782790B00BE97D5 /* Build configuration list for PBXNativeTarget "littleMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587B5C061782790B00BE97D5 /* Debug */,
+				587B5C071782790B00BE97D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 587B5BDA1782790B00BE97D5 /* Project object */;
+}
